@@ -1,0 +1,14 @@
+<html>
+<title></title>
+<head></head>
+<body>
+<?php 
+$sms=($_POST['message']);
+$retour= mail("destinataire@xy.com","evoi depuis la page contacter nous", $_POST["message"], "from:");
+if($retour)
+	echo' <h2>votre message a ete bien envoyer.';
+	echo $sms;
+
+?>
+</body>
+</html>

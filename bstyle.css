@@ -1,0 +1,52 @@
+* {
+    padding : 2px;
+    margin :auto;
+}
+
+
+body {
+	width:auto;
+	border: solid black 3px;
+    
+    color : black;
+	
+	height:auto;
+	position:center;
+	
+}
+.psp{
+	border: groove #fff458 4px;
+	background-color:orange;
+	width:490px;
+	height:5;
+	text-align:center;
+	border-color:gray;
+	border-radius: 35PX;
+	
+	
+	
+}
+.psp1{
+	border: groove white 4px;
+	background-color:white;
+}
+.eh{
+	border: solid #fff900 4px;
+	background-color:yellow;
+	width:490px;
+	height:5;
+	text-align:top;
+	border-color:fuchsia;
+	border-radius: 35PX;
+	
+}
+.pop{
+	font-family:arial;
+	border: groove #fff458 4px;
+	background-color:orange;
+	width:490px;
+	height:5;
+	text-align:center;
+	border-color:gray;
+	border-radius: 35PX;
+}

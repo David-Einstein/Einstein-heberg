@@ -1,0 +1,248 @@
+* {
+	width:auto;
+	height:auto;
+   
+}
+
+
+body {
+	width:auto;
+	height:auto;
+    
+	background-attachment:fixed;
+	background-position:auto;
+	font-family:arial;
+   
+	position:auto;
+	
+	border-width:auto;
+
+	margin:auto;
+	padding:10px;
+	background:linear-gradient(to top,#44ffcc, orange,cyan);
+	overflow:scroll auto;
+}
+
+.qsn{
+		text-align:center;
+		text-decoration:blink;
+	
+		width:auto;
+		height:auto;
+		
+	}
+.th{
+	text-align:center;
+	color:black;
+	
+}
+
+h2{font-size=24;}
+p{color=cyan;} 
+.pr1{
+		
+	width:180px; 
+	height:20px;
+	
+	
+
+	}
+	
+	#mp{
+		text-align:center;
+		color: magneta;
+		size:6px;
+	}
+	.pop{
+		width:300px;
+		height:20px;
+		color:black;
+		size:24px;
+		border:groove #9999cc;
+		background-color:#ccffff;
+		text-align:center;
+		
+		
+	}
+	.vx{
+		
+		border: dushed #12ccf1 2px;
+		background-color:#ccffff;
+		width:auto;
+		height:20px;
+		border-radius: 35px;
+	}
+		.vx1{
+		
+		border: groove cyan 3px;
+		background-color:#ccff44;
+		width:580px;
+		height:20px;
+		border-radius: 35px;
+	}
+	.km{
+		border:;
+		background-image:"http://192.168.0.30/idah%20web%20site/logoIDAH.png";
+		background-color:;
+		
+	}
+	.qt{
+		border:solid blue 1px;
+		width:90px;
+		
+	}
+	
+	.p1{
+		color: black;
+		border: groove black 2px;
+		width:60px;
+		background-color:red ;
+		text-align:center;
+		border-radius: 35PX;
+	}
+	.p2{
+		color: black;
+		border: groove black 2px;
+		width:95px;
+		background-color:teal;
+		border-radius: 35PX;
+		
+	}
+	.p3{
+		color: black;
+		border: groove black 2px;
+		width:85px;
+		background-color:yellow ;
+		border-radius: 35PX;
+		
+	}
+	.p4{
+		color: black;
+		border: groove black 2px;
+		width:55px;
+		background-color:lime;
+		text-align:center;
+		border-radius: 35PX;
+		
+	}
+	
+	.p7{
+		color: black;
+		border: groove black 2px;
+		width:155px;
+		background-color:white;
+		text-align:center;
+		border-radius: 35PX;
+		
+	}
+	.p8{
+		color: black;
+		border: groove black 2px;
+		width:155px;
+		background-color:fuchsia;
+		text-align:center;
+		border-radius: 35PX;
+		
+	}
+	.p9{
+		color: black;
+		border: groove black 2px;
+		width:155px;
+		background-color:lime;
+		text-align:center;
+		border-radius: 35PX;
+	}
+	.hh{
+		float:right;
+		
+	
+	}
+	.historique {
+		border:ridge 2px bleu;
+		overflow:scroll auto;
+		border-radius: 35PX;
+		
+	}
+	.zz{
+		border:outset 2px black;
+		background-color:pink;
+		border-radius: 35PX;
+	}
+	ol{
+		list-style-type: decimal;
+	}
+	.img{
+		width:20px;
+		
+	}
+	.stage1{
+		border:groove #ff22cc 2px;
+		margin-top:12px;
+		background:linear-gradient(to right,#fffccf, cyan, orange);
+		width:300px;
+		height:50px;
+		padding-top:10px;
+		margin-left:15px;
+		text-align:center;
+		font-family:algerian;
+		border-radius: 35PX;
+	}
+	.stage2{
+		border:groove #ff22cc 2px;
+		margin-top:12px;
+		margin-left:15px;
+		background:linear-gradient(to right,#fffccf, cyan, orange);
+		width:300px;
+		height:50px;
+		padding-top:10px;
+		text-align:center;
+		font-family:algerian;
+		border-radius: 35PX;
+	}
+	.stage3{
+		border:groove #ff22cc 2px;
+		margin-top:12px;
+		margin-left:15px;
+		background:linear-gradient(to right,#fffccf, cyan, orange);
+		width:300px;
+		height:50px;
+		padding-top:10px;
+		text-align:center;
+		font-family:algerian;
+		border-radius: 35PX;
+	}
+	.f{
+		margin-left:89px;
+		border:groove black 3px;
+		background-color:orange;
+		width:120px;
+		height:30px;
+		text-align:center;
+		font-family:arial;
+		border-radius: 35PX;
+	}
+	.xx{
+	background:linear-gradient(to right,#fffccf, cyan, orange);
+	width:165px;
+	height:30px;
+	text-align:center;
+	border-color:orange;
+	
+	font-family:algerian;
+	padding-top:10px;
+	border:solid 3px black;
+	border-radius: 35PX;
+		
+	}
+	.stage4{
+		border:groove #ff22cc 2px;
+		margin-top:12px;
+		margin-left:15px;
+		background:linear-gradient(to right,#fffccf, cyan, orange);
+		width:380px;
+		height:50px;
+		padding-top:10px;
+		text-align:center;
+		font-family:algerian;
+		border-radius: 35PX;	
+	}

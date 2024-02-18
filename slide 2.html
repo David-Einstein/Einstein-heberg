@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; content="text/php"; charset=UTF-8">
+		<link rel="stylesheet" href="http://192.168.0.30:9280/idah%20web%20site/fstyle.css"/>
+		<title>IDAH FOUNDATION AFRICA </title>
+  </head>
+  <body>
+    <div class="glissière">
+      <a href="http://192.168.0.30:8080/idah%20web%20site/logoIDAH.png">1</a>
+      <a href="http://192.168.0.30:8080/idah%20web%20site/logoIDAH.png">2</a>
+      <a href="http://192.168.0.30:8080/idah%20web%20site/logoIDAH.png >3</                                                                                                          ">3</a>
+      <a href="#diapo-4">4</a>
+      <a href="#diapo-5">5</a>
+      <div class="diapos">
+        <div id="diapo-1">1</div>
+        <div id="diapo-2">2</div>
+        <div id="diapo-3">3</div>
+        <div id="diapo-4">4</div>
+        <div id="diapo-5">5</div>
+      </div>
+    </div>
+  </body>
+</html>
+<?xml version=" 1.0 " encoding=" iso −8959−1"?>
+<!DOCTYPE html PUBLIC " −//W3C/ / DTD XHTML 1 . 0 S t r i c t / / EN"
+" h t t p : / / www . w3 . o r g /TR/ xhtml1 /DTD/ xhtml1−strict . dtd">
+<html xmlns=" h t t p : / / www . w3 . o r g / 1 9 9 9 / xhtml " xml : l a n g =" f r " >
+<head>
+< t i t l e >Création d ’ un formulaire </ t i t l e >
+<link rel= ’ stylesheet ’ href =" films . css " type =" text / css "/ >
+</head>
+<body>
+<?php
+require_once (" Formulaire . php ") ;
+/ / Instanciation du formulaire
+$form = new Formulaire (" post " , " ApplClasseFormulaire . php ") ;
+/ / Un champ caché
+$form−>champCache ( " mode " , " Démonstration " ) ;
+/ / Tableau en mode v e r t i c a l , avec quelques champs
+$form−>d e b u t T a b l e ( F o r m u l a i r e : : VERTICAL) ;
+$form−>champTexte ( "Nom" , "nom " , " E n t r e z v o t r e nom " , 40) ;
+$form−>champTexte (" Prénom " , " prenom " , " Entrez votre prénom " , 40) ;
+/ / Un champ r a d i o , avec l a l i s t e d e s choix dans un t a b l e a u PHP
+$form−>champRadio ( " Sexe " , " s e x e " , "M" , a r r a y ( "M" => " Masculin " ,
+"F"=>"Féminin ") ) ;
+/ / Un champ s e l e c t , avec l a l i s t e d e s choix dans un t a b l e a u PHP
+$form−>champListe (" J u s t i f i c a t i f " , " nation " , " cni " , 1 ,
+array ( " cni "=>"Carte d ’ identité " ,
+" p a s s "=>" P a s s e p o r t " ,
+" pc "=>" Permis de c o n d u i r e " ) ) ;
+/ / Un champ t e x t a r e a
+$form−>champFenetre ( " B r e f CV" , " cv " , " Votre CV en q u e l q u e s
+lignes " , 4, 50) ;
+/ / Un champ f i c h i e r
+$form−>champFichier ( " Votre photo " , " photo " , 30) ;
+/ / Fin du mode v e r t i c a l
+$form−>finTable () ;
+156 Chapitre 3. Programmation objet
+$form−>ajoutTexte ( "<b>Vos enfants </b>" ) ;
+/ / Tableau en mode horizontal , avec 5 l i g n e s
+$form−>d e b u t T a b l e ( F o r m u l a i r e : : HORIZONTAL, a r r a y ( ) , 5) ;
+$form−>champTexte ( " Prénom " , " prenom [ ] " , " " , 20 , 30) ;
+$form−>champTexte ( "Nom" , "nom [ ] " , " " , 20 , 30) ;
+$form−>champTexte ( "Né en " , " a n n e e _ n a i s s a n c e [ ] " , " " , 4) ;
+$form−>finTable () ;
+/ / Bouton de validation , avec placement libre
+$form−>champValider ( " Valider la s a i s i e " , " valider " ) ;
+/ / Affichage du formulaire
+echo $form−>formulaireHTML () ;
+? >
